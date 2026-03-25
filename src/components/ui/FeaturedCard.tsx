@@ -16,7 +16,7 @@ export default function FeaturedItem({
         <Link href={href} target="_blank" className="group block">
 
             {/* TITLE */}
-            <p className="text-sm font-medium text-slate-700 mb-3
+            <p className="text-sm md:text-xl font-medium text-slate-700 mb-3
         group-hover:text-sky-600 transition-colors">
                 {title}
             </p>

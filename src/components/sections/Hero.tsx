@@ -21,9 +21,9 @@ export default function Hero() {
 
                 {/* Heading */}
                 <h1 className="text-4xl md:text-6xl font-semibold leading-tight md:max-w-4xl">
-                    Say Hi from a{" "}
+                    Hi, I'm a{" "}
                     <span className="text-blue-600">
-                        Backend & Fullstack Developer
+                        Software Engineer <span className="text-slate-800">focused on</span> backend systems
                     </span>
                 </h1>
 

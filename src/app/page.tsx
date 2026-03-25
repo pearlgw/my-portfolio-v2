@@ -16,10 +16,10 @@ export default function Home() {
         className="relative flex flex-col lg:flex-row lg:px-6 xl:px-10 min-h-screen"
         style={{
           background: `
-    radial-gradient(ellipse 60% 40% at 0% 0%, rgba(125,211,252,0.08), transparent 70%),
-    radial-gradient(ellipse 50% 35% at 100% 100%, rgba(165,180,252,0.06), transparent 75%),
-    #f9fbfd
-  `,
+      radial-gradient(ellipse 60% 40% at 0% 0%, rgba(125,211,252,0.08), transparent 70%),
+      radial-gradient(ellipse 50% 35% at 100% 100%, rgba(165,180,252,0.06), transparent 75%),
+      #e2e8f0
+    `,
         }}
       >
         {/* Subtle noise texture overlay */}

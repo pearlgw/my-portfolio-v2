@@ -11,7 +11,7 @@ const poppins = Poppins({
 export const metadata: Metadata = {
   title: "Gayuh Widyanata | Portfolio",
   description:
-    "Portfolio Gayuh Widyanata - Backend Developer & Fullstack Web Developer. Explore my projects, experience, and skills.",
+    "Portfolio Gayuh Widyanata - Backend-focused Fullstack Developer. Explore my projects, experience, and skills.",
   keywords: [
     "Gayuh Widyanata",
     "Portfolio",
@@ -24,10 +24,15 @@ export const metadata: Metadata = {
   openGraph: {
     title: "Gayuh Widyanata | Portfolio",
     description:
-      "Backend Developer & Fullstack Web Developer. Explore my projects.",
-    url: "http://localhost:3000",
+      "Backend-focused Fullstack Developer. Explore my projects.",
+    url: "me.natagw.my.id",
     siteName: "Gayuh Portfolio V2",
     type: "website",
+  },
+  icons: {
+    icon: "/gw.png",
+    shortcut: "/gw.png",
+    apple: "/gw.png",
   },
 };
 

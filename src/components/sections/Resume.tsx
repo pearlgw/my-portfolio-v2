@@ -11,7 +11,7 @@ export default function Resume() {
         Experience
       </h2>
 
-      <ol className="relative mt-10 border-s ms-1 border-sky-200/60">
+      <ol className="relative mt-10 border-s ms-1 border-sky-400/60">
 
         {/* Farmagitechs */}
         <li className="-mt-2 mb-10 ms-6">
@@ -85,7 +85,7 @@ export default function Resume() {
         Education
       </h2>
 
-      <ol className="relative mt-10 border-s ms-1 border-sky-200/60">
+      <ol className="relative mt-10 border-s ms-1 border-sky-400/60">
 
         <li className="-mt-2 mb-6 ms-6">
           <div className="absolute w-3 h-3 rounded-full mt-1.5 -start-1.5
@@ -137,7 +137,7 @@ export default function Resume() {
         Achievement
       </h2>
 
-      <ol className="relative mt-10 border-s ms-1 border-sky-200/60">
+      <ol className="relative mt-10 border-s ms-1 border-sky-400/60">
 
         <li className="-mt-2 mb-6 ms-6">
           <div className="absolute w-3 h-3 rounded-full mt-1.5 -start-1.5

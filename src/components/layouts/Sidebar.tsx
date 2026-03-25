@@ -48,7 +48,7 @@ export default function Sidebar() {
                             NataGW
                         </h1>
                         <p className="text-[13px] text-right leading-snug max-w-[140px] font-medium">
-                            Backend & Fullstack Developer
+                            Software Engineer Backend Focus
                         </p>
                     </div>
 

@@ -103,7 +103,7 @@ export default function Portfolio() {
                 <div className="transform translate-y-8 group-hover:translate-y-0 transition duration-500">
 
                   {/* ROLE badge */}
-                  <span className="inline-block px-2.5 py-0.5 rounded-full text-xs font-medium
+                  <span className="inline-block px-2.5 py-0.5 rounded-full text-xs md:text-lg font-medium
                     bg-sky-400/20 backdrop-blur-sm border border-sky-300/30 text-sky-200
                     mb-3 opacity-0 group-hover:opacity-100 transition duration-500">
                     {item.role}
@@ -123,7 +123,7 @@ export default function Portfolio() {
                             hover:bg-white/20 hover:border-sky-300/30
                             transition-all duration-200"
                         >
-                          <Icon className="text-white text-base" />
+                          <Icon className="text-white text-base md:text-2xl" />
                         </div>
                       ))}
                     </div>
