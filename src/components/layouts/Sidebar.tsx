@@ -89,7 +89,9 @@ export default function Sidebar() {
                             <div className="p-1.5 rounded-md bg-sky-50/80 border border-sky-100/80 backdrop-blur-sm">
                                 <MapPin size={13} className="text-sky-500" />
                             </div>
-                            <span className="leading-none">Based in Yogyakarta, ID</span>
+                            <span className="leading-snug text-center">
+                                Based in Ungaran, Jawa Tengah
+                            </span>
                         </div>
                     </div>
 
