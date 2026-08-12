@@ -40,7 +40,7 @@ export default function Sidebar({ dict, lang }: { dict: any, lang: string }) {
                             NataGW
                         </h1>
                         <div className="flex flex-col items-end gap-2">
-                            <p className="text-[13px] text-right leading-snug max-w-[200px] font-medium">
+                            <p className="text-[13px] text-right leading-snug max-w-[200px] font-medium whitespace-pre-line">
                                 {dict.subtitle}
                             </p>
                         </div>
