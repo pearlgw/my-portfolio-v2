@@ -1,14 +1,14 @@
 import React from 'react'
 import FeaturedCard from '../ui/FeaturedCard'
 
-export default function FeaturedIn() {
+export default function FeaturedIn({ dict }: { dict: any }) {
     return (
         <section id="portfolio" className="flex flex-col justify-center pb-24">
             {/* Featured In */}
             <h2 className="mt-4 text-xl md:text-4xl font-light leading-tight text-slate-700">
-                Beyond This{" "}
+                {dict.heading.part1}
                 <span className="font-semibold bg-gradient-to-r from-sky-500 to-indigo-500 bg-clip-text text-transparent">
-                    Site
+                    {dict.heading.part2}
                 </span>
             </h2>
 

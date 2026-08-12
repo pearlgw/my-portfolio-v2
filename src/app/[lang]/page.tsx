@@ -7,11 +7,23 @@ import Skills from "@/components/sections/Skills";
 import Portfolio from "@/components/sections/Portfolio";
 import Service from "@/components/sections/Service";
 import Contact from "@/components/sections/Contact";
+import LanguageSwitcher from "@/components/ui/LanguageSwitcher";
+import { getDictionary } from "@/dictionaries/dictionaries";
 
-export default function Home() {
+export default async function Home({
+  params,
+}: {
+  params: Promise<{ lang: string }>;
+}) {
+  const { lang } = await params;
+  const dict = await getDictionary(lang);
+
   return (
     <>
       <SectionIndicator />
+      <div className="hidden lg:flex fixed top-10 right-6 xl:right-10 z-50">
+        <LanguageSwitcher currentLang={lang} />
+      </div>
       <div
         className="relative flex flex-col lg:flex-row lg:px-6 xl:px-10 min-h-screen"
         style={{
@@ -34,25 +46,22 @@ export default function Home() {
 
         {/* Sidebar */}
         <aside className="relative z-10 w-full lg:w-96 lg:h-screen lg:sticky lg:top-0">
-          <Sidebar />
+          <Sidebar dict={dict.sidebar} lang={lang} />
         </aside>
 
-        {/* Main
-          - Desktop (lg+): scroll di dalam container ini (h-screen + overflow-y-auto)
-          - Mobile: TIDAK ada h-screen/overflow-y-auto, scroll terjadi di body/window
-        */}
+        {/* Main */}
         <main
           id="scroll-container"
           className="relative z-10 flex-1 lg:h-screen lg:overflow-y-auto no-scrollbar"
         >
           <div className="px-6 md:px-10 lg:px-10 lg:pr-24 py-10">
-            <Hero />
-            <About />
-            <Resume />
-            <Skills />
-            <Portfolio />
-            <Service />
-            <Contact />
+            <Hero dict={dict.hero} />
+            <About dict={dict.about} />
+            <Resume dict={dict.resume} />
+            <Skills dict={dict.skills} />
+            <Portfolio dict={dict.portfolio} featured={dict.featured} />
+            <Service dict={dict.service} />
+            <Contact dict={dict.contact} />
           </div>
         </main>
       </div>

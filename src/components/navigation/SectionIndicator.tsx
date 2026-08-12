@@ -69,10 +69,7 @@ export default function SectionIndicator() {
         <>
             {/* Desktop */}
             <div className="hidden lg:flex fixed right-6 xl:right-10 top-1/2 -translate-y-1/2 z-50">
-                <div className="flex flex-col gap-1 px-2 py-3 rounded-full
-                    bg-white
-                    border border-sky-200/60
-                    shadow-[0_4px_24px_rgba(14,165,233,0.12),inset_0_1px_0_rgba(255,255,255,0.9)]">
+                <div className="flex flex-col gap-1 px-2 py-3 rounded-full bg-white border border-sky-200/60 shadow-[0_4px_24px_rgba(14,165,233,0.12),inset_0_1px_0_rgba(255,255,255,0.9)]">
 
                     {sections.map(({ id, icon: Icon }) => (
                         <button
@@ -82,11 +79,7 @@ export default function SectionIndicator() {
                             className="relative flex items-center justify-center w-9 h-9 group"
                         >
                             {active === id && (
-                                <span className="absolute inset-0 rounded-full
-                                    bg-gradient-to-br from-sky-400/20 to-blue-400/20
-                                    ring-1 ring-sky-300/50
-                                    shadow-[0_2px_8px_rgba(14,165,233,0.2)]
-                                    transition-all duration-300" />
+                                <span className="absolute inset-0 rounded-full bg-gradient-to-br from-sky-400/20 to-blue-400/20 ring-1 ring-sky-300/50 shadow-[0_2px_8px_rgba(14,165,233,0.2)] transition-all duration-300" />
                             )}
                             <Icon
                                 size={15}
@@ -102,10 +95,7 @@ export default function SectionIndicator() {
 
             {/* Mobile */}
             <div className="lg:hidden fixed bottom-4 left-1/2 -translate-x-1/2 z-50">
-                <div className="flex gap-1 px-3 py-2 rounded-full
-                    bg-white
-                    border border-sky-200/60
-                    shadow-[0_4px_24px_rgba(14,165,233,0.15),inset_0_1px_0_rgba(255,255,255,0.9)]">
+                <div className="flex gap-1 px-3 py-2 rounded-full bg-white border border-sky-200/60 shadow-[0_4px_24px_rgba(14,165,233,0.15),inset_0_1px_0_rgba(255,255,255,0.9)]">
 
                     {sections.map(({ id, icon: Icon }) => (
                         <button
@@ -114,9 +104,7 @@ export default function SectionIndicator() {
                             className="relative flex items-center justify-center w-9 h-9"
                         >
                             {active === id && (
-                                <span className="absolute inset-0 rounded-full
-                                    bg-gradient-to-br from-sky-400/20 to-blue-400/20
-                                    ring-1 ring-sky-300/50" />
+                                <span className="absolute inset-0 rounded-full bg-gradient-to-br from-sky-400/20 to-blue-400/20 ring-1 ring-sky-300/50" />
                             )}
                             <Icon
                                 size={15}

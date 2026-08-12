@@ -3,7 +3,7 @@ import { useEffect, useState } from "react";
 import Badge from "../ui/Badge";
 import { MessageSquareText, Send } from "lucide-react";
 
-export default function Contact() {
+export default function Contact({ dict }: { dict: any }) {
   const [loading, setLoading] = useState(false);
   const [toast, setToast] = useState<{
     type: "success" | "error";
@@ -34,13 +34,13 @@ export default function Contact() {
       });
 
       if (res.ok) {
-        setToast({ type: "success", message: "Message sent successfully 🚀" });
+        setToast({ type: "success", message: dict.toast.success });
         e.target.reset();
       } else {
-        setToast({ type: "error", message: "Failed to send message ❌" });
+        setToast({ type: "error", message: dict.toast.fail });
       }
     } catch (error) {
-      setToast({ type: "error", message: "Error sending message ❌" });
+      setToast({ type: "error", message: dict.toast.error });
     } finally {
       setLoading(false);
     }
@@ -59,12 +59,12 @@ export default function Contact() {
   return (
     <>
       <section id="contact" className="flex flex-col justify-center pb-16 md:pb-5">
-        <Badge name="Contact" icon={MessageSquareText} />
+        <Badge name={dict.badge} icon={MessageSquareText} />
 
         <h2 className="mt-4 text-xl md:text-4xl font-light leading-tight text-slate-700">
-          Let's Work{" "}
+          {dict.heading.part1}
           <span className="font-semibold bg-gradient-to-r from-sky-500 to-indigo-500 bg-clip-text text-transparent">
-            Together!
+            {dict.heading.part2}
           </span>
         </h2>
 
@@ -81,12 +81,12 @@ export default function Contact() {
             {/* FULL NAME */}
             <div className="flex flex-col">
               <label className="text-[11px] font-semibold tracking-widest text-slate-500 mb-1.5 uppercase">
-                Full Name
+                {dict.form.nameLabel}
               </label>
               <input
                 type="text"
                 name="name"
-                placeholder="Your full name"
+                placeholder={dict.form.namePlaceholder}
                 className="px-4 py-2.5 rounded-lg
                 bg-white border border-slate-200
                 focus:outline-none focus:border-sky-400
@@ -99,12 +99,12 @@ export default function Contact() {
             {/* EMAIL */}
             <div className="flex flex-col">
               <label className="text-[11px] font-semibold tracking-widest text-slate-500 mb-1.5 uppercase">
-                Email
+                {dict.form.emailLabel}
               </label>
               <input
                 type="email"
                 name="email"
-                placeholder="Your email address"
+                placeholder={dict.form.emailPlaceholder}
                 className="px-4 py-2.5 rounded-lg
                 bg-white border border-slate-200
                 focus:outline-none focus:border-sky-400
@@ -117,12 +117,12 @@ export default function Contact() {
             {/* PHONE */}
             <div className="flex flex-col">
               <label className="text-[11px] font-semibold tracking-widest text-slate-500 mb-1.5 uppercase">
-                Phone
+                {dict.form.phoneLabel}
               </label>
               <input
                 type="text"
                 name="phone"
-                placeholder="Your phone number"
+                placeholder={dict.form.phonePlaceholder}
                 className="px-4 py-2.5 rounded-lg
                 bg-white border border-slate-200
                 focus:outline-none focus:border-sky-400
@@ -135,12 +135,12 @@ export default function Contact() {
             {/* BUDGET */}
             <div className="flex flex-col">
               <label className="text-[11px] font-semibold tracking-widest text-slate-500 mb-1.5 uppercase">
-                Budget
+                {dict.form.budgetLabel}
               </label>
               <input
                 type="text"
                 name="budget"
-                placeholder="A range budget for your project"
+                placeholder={dict.form.budgetPlaceholder}
                 className="px-4 py-2.5 rounded-lg
                 bg-white border border-slate-200
                 focus:outline-none focus:border-sky-400
@@ -153,12 +153,12 @@ export default function Contact() {
             {/* MESSAGE */}
             <div className="flex flex-col md:col-span-2">
               <label className="text-[11px] font-semibold tracking-widest text-slate-500 mb-1.5 uppercase">
-                Message
+                {dict.form.messageLabel}
               </label>
               <textarea
                 rows={4}
                 name="message"
-                placeholder="Write your message..."
+                placeholder={dict.form.messagePlaceholder}
                 className="px-4 py-2.5 rounded-lg
                 bg-white border border-slate-200
                 focus:outline-none focus:border-sky-400
@@ -184,7 +184,7 @@ export default function Contact() {
                 transition-all duration-200 cursor-pointer"
               >
                 <Send size={16} />
-                {loading ? "Sending..." : "Send Message"}
+                {loading ? dict.form.btnSending : dict.form.btnSend}
               </button>
             </div>
 

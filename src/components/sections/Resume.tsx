@@ -1,14 +1,14 @@
 import { FileText } from "lucide-react";
 import Badge from "../ui/Badge";
 
-export default function Resume() {
+export default function Resume({ dict }: { dict: any }) {
   return (
     <section id="resume" className="flex flex-col justify-center pb-24">
-      <Badge name="Resume" icon={FileText} />
+      <Badge name={dict.badge} icon={FileText} />
 
       {/* Experience */}
       <h2 className="mt-4 text-xl md:text-4xl font-light leading-tight text-slate-700">
-        Experience
+        {dict.titles.experience}
       </h2>
 
       <ol className="relative mt-10 border-s ms-1 border-sky-400/60">
@@ -27,21 +27,21 @@ export default function Resume() {
           <div className="mb-4 space-y-3 mt-4 ms-2">
             <div className="p-3 rounded-xl bg-white/60 border border-sky-50 hover:border-sky-100 hover:bg-white/80 transition-all duration-200">
               <p className="font-semibold text-slate-700 text-sm">
-                Fullstack Web Development SIMRS
+                {dict.experiences.farmagitechs.title1}
               </p>
-              <p className="text-slate-500 text-sm mt-0.5">Developed and maintained SIMRS web application.</p>
+              <p className="text-slate-500 text-sm mt-0.5">{dict.experiences.farmagitechs.desc1}</p>
             </div>
             <div className="p-3 rounded-xl bg-white/60 border border-sky-50 hover:border-sky-100 hover:bg-white/80 transition-all duration-200">
               <p className="font-semibold text-slate-700 text-sm">
-                Backend Radar System
+                {dict.experiences.farmagitechs.title2}
               </p>
-              <p className="text-slate-500 text-sm mt-0.5">Built and maintained backend services for radar system integration.</p>
+              <p className="text-slate-500 text-sm mt-0.5">{dict.experiences.farmagitechs.desc2}</p>
             </div>
             <div className="p-3 rounded-xl bg-white/60 border border-sky-50 hover:border-sky-100 hover:bg-white/80 transition-all duration-200">
               <p className="font-semibold text-slate-700 text-sm">
-                AI Assistant Integration
+                {dict.experiences.farmagitechs.title3}
               </p>
-              <p className="text-slate-500 text-sm mt-0.5">Developed fullstack features integrating AI assistant capabilities.</p>
+              <p className="text-slate-500 text-sm mt-0.5">{dict.experiences.farmagitechs.desc3}</p>
             </div>
           </div>
         </li>
@@ -60,20 +60,20 @@ export default function Resume() {
 
           <div className="space-y-3 mt-4 ms-2">
             <div className="p-3 rounded-xl bg-white/60 border border-sky-50 hover:border-sky-100 hover:bg-white/80 transition-all duration-200">
-              <p className="font-semibold text-slate-700 text-sm">Bengkel Koding Leader</p>
-              <p className="text-slate-500 text-sm mt-0.5">Led and coordinated development activities within the community, guided team members in building web applications, and ensured collaboration in delivering learning based projects.</p>
+              <p className="font-semibold text-slate-700 text-sm">{dict.experiences.bengkel.title1}</p>
+              <p className="text-slate-500 text-sm mt-0.5">{dict.experiences.bengkel.desc1}</p>
             </div>
             <div className="p-3 rounded-xl bg-white/60 border border-sky-50 hover:border-sky-100 hover:bg-white/80 transition-all duration-200">
-              <p className="font-semibold text-slate-700 text-sm">LMS Backend Development</p>
-              <p className="text-slate-500 text-sm mt-0.5">Developed and maintained backend system for learning management platform.</p>
+              <p className="font-semibold text-slate-700 text-sm">{dict.experiences.bengkel.title2}</p>
+              <p className="text-slate-500 text-sm mt-0.5">{dict.experiences.bengkel.desc2}</p>
             </div>
             <div className="p-3 rounded-xl bg-white/60 border border-sky-50 hover:border-sky-100 hover:bg-white/80 transition-all duration-200">
-              <p className="font-semibold text-slate-700 text-sm">API & Database Design</p>
-              <p className="text-slate-500 text-sm mt-0.5">Designed APIs and structured database for scalable system architecture.</p>
+              <p className="font-semibold text-slate-700 text-sm">{dict.experiences.bengkel.title3}</p>
+              <p className="text-slate-500 text-sm mt-0.5">{dict.experiences.bengkel.desc3}</p>
             </div>
             <div className="p-3 rounded-xl bg-white/60 border border-sky-50 hover:border-sky-100 hover:bg-white/80 transition-all duration-200">
-              <p className="font-semibold text-slate-700 text-sm">Frontend & Backend History Indoor Duration</p>
-              <p className="text-slate-500 text-sm mt-0.5">Built a fullstack system for tracking indoor activity history and duration, covering both frontend UI and backend services.</p>
+              <p className="font-semibold text-slate-700 text-sm">{dict.experiences.bengkel.title4}</p>
+              <p className="text-slate-500 text-sm mt-0.5">{dict.experiences.bengkel.desc4}</p>
             </div>
           </div>
         </li>
@@ -82,7 +82,7 @@ export default function Resume() {
 
       {/* Education */}
       <h2 className="mt-14 text-xl md:text-4xl font-light leading-tight text-slate-700">
-        Education
+        {dict.titles.education}
       </h2>
 
       <ol className="relative mt-10 border-s ms-1 border-sky-400/60">
@@ -96,8 +96,8 @@ export default function Resume() {
             2022 - 2026
           </time>
           <div className="mt-2 ms-2 p-3 rounded-xl bg-white/60 border border-sky-50 hover:border-sky-100 hover:bg-white/80 transition-all duration-200 inline-block w-full">
-            <p className="font-semibold text-slate-700 text-sm">Bachelor of Engineering</p>
-            <p className="text-slate-500 text-sm mt-0.5">Informatics Engineering - Dian Nuswantoro University</p>
+            <p className="font-semibold text-slate-700 text-sm">{dict.education.dianNuswantoro.title}</p>
+            <p className="text-slate-500 text-sm mt-0.5">{dict.education.dianNuswantoro.desc}</p>
           </div>
         </li>
 
@@ -110,8 +110,8 @@ export default function Resume() {
             Feb 2024 - Jun 2024
           </time>
           <div className="mt-2 ms-2 p-3 rounded-xl bg-white/60 border border-sky-50 hover:border-sky-100 hover:bg-white/80 transition-all duration-200 inline-block w-full">
-            <p className="font-semibold text-slate-700 text-sm">Student Exchange - Computer Science</p>
-            <p className="text-slate-500 text-sm mt-0.5">Gadjah Mada University</p>
+            <p className="font-semibold text-slate-700 text-sm">{dict.education.gadjahMada.title}</p>
+            <p className="text-slate-500 text-sm mt-0.5">{dict.education.gadjahMada.desc}</p>
           </div>
         </li>
 
@@ -125,8 +125,8 @@ export default function Resume() {
             2019 - 2022
           </time>
           <div className="mt-2 ms-2 p-3 rounded-xl bg-white/60 border border-sky-50 hover:border-sky-100 hover:bg-white/80 transition-all duration-200 inline-block w-full">
-            <p className="font-semibold text-slate-700 text-sm">Software Engineering (Rekayasa Perangkat Lunak)</p>
-            <p className="text-slate-500 text-sm mt-0.5">SMK Telekomunikasi Tunas Harapan</p>
+            <p className="font-semibold text-slate-700 text-sm">{dict.education.tunasHarapan.title}</p>
+            <p className="text-slate-500 text-sm mt-0.5">{dict.education.tunasHarapan.desc}</p>
           </div>
         </li>
 
@@ -134,7 +134,7 @@ export default function Resume() {
 
       {/* Achievement */}
       <h2 className="mt-14 text-xl md:text-4xl font-light leading-tight text-slate-700">
-        Achievement
+        {dict.titles.achievement}
       </h2>
 
       <ol className="relative mt-10 border-s ms-1 border-sky-400/60">
@@ -148,8 +148,8 @@ export default function Resume() {
             2022 - 2026
           </time>
           <div className="mt-2 ms-2 p-3 rounded-xl bg-white/60 border border-sky-50 hover:border-sky-100 hover:bg-white/80 transition-all duration-200 inline-block w-full">
-            <p className="font-semibold text-slate-700 text-sm">96% Academic Scholarship Award</p>
-            <p className="text-slate-500 text-sm mt-0.5">Dian Nuswantoro University - awarded for academic performance from SMK Telekomunikasi Tunas Harapan.</p>
+            <p className="font-semibold text-slate-700 text-sm">{dict.achievements.scholarship.title}</p>
+            <p className="text-slate-500 text-sm mt-0.5">{dict.achievements.scholarship.desc}</p>
           </div>
         </li>
 
@@ -162,8 +162,8 @@ export default function Resume() {
             2022
           </time>
           <div className="mt-2 ms-2 p-3 rounded-xl bg-white/60 border border-sky-50 hover:border-sky-100 hover:bg-white/80 transition-all duration-200 inline-block w-full">
-            <p className="font-semibold text-slate-700 text-sm">2nd Rank Graduate</p>
-            <p className="text-slate-500 text-sm mt-0.5">SMK Telekomunikasi Tunas Harapan - ranked 2nd among the 2019 cohort.</p>
+            <p className="font-semibold text-slate-700 text-sm">{dict.achievements.rank2.title}</p>
+            <p className="text-slate-500 text-sm mt-0.5">{dict.achievements.rank2.desc}</p>
           </div>
         </li>
 
@@ -177,8 +177,8 @@ export default function Resume() {
             2022
           </time>
           <div className="mt-2 ms-2 p-3 rounded-xl bg-white/60 border border-sky-50 hover:border-sky-100 hover:bg-white/80 transition-all duration-200 inline-block w-full">
-            <p className="font-semibold text-slate-700 text-sm">1st Place - IT Software Solutions for Business</p>
-            <p className="text-slate-500 text-sm mt-0.5">Lomba Kompetensi Siswa (LKS) Regency Level</p>
+            <p className="font-semibold text-slate-700 text-sm">{dict.achievements.lks.title}</p>
+            <p className="text-slate-500 text-sm mt-0.5">{dict.achievements.lks.desc}</p>
           </div>
         </li>
 

@@ -1,0 +1,185 @@
+{
+  "hero": {
+    "badge": "Perkenalan",
+    "heading": {
+      "part1": "Hai, saya seorang ",
+      "part2": "Software Engineer",
+      "part3": " yang berfokus pada",
+      "part4": " sistem backend"
+    },
+    "subHeading": "Saya membangun sistem dan aplikasi web yang sederhana, efisien, dan andal. Mengubah ide menjadi solusi nyata adalah hal yang paling saya sukai.",
+    "extra": "Berfokus pada pembuatan produk yang tidak hanya berfungsi, tetapi juga dapat diskalakan dan memberikan dampak.",
+    "cta": "Lihat Proyek Saya",
+    "downloadCV": "Unduh CV"
+  },
+  "about": {
+    "badge": "Tentang",
+    "heading": {
+      "part1": "Setiap produk hebat berawal dari tujuan yang jelas dan ",
+      "part2": "eksekusi yang matang."
+    },
+    "content1": "Saya telah membangun aplikasi web dan sistem backend dengan fokus pada keandalan, efisiensi, dan skalabilitas. Dari mengembangkan platform fullstack hingga merancang API dan mengintegrasikan teknologi modern, saya senang mengubah masalah yang kompleks menjadi solusi yang sederhana dan dapat digunakan.",
+    "content2": "Secara alami saya memiliki rasa ingin tahu, berorientasi pada detail, dan selalu meningkatkan cara saya merancang sistem dan menulis kode yang bersih serta mudah dikelola.",
+    "stats": {
+      "experience": "Tahun Pengalaman",
+      "projects": "Proyek Selesai"
+    },
+    "downloadCV": "Unduh CV"
+  },
+  "resume": {
+    "badge": "Resume",
+    "titles": {
+      "experience": "Pengalaman",
+      "education": "Pendidikan",
+      "achievement": "Pencapaian"
+    },
+    "experiences": {
+      "farmagitechs": {
+        "title1": "Fullstack Web Development SIMRS",
+        "desc1": "Mengembangkan dan memelihara aplikasi web SIMRS.",
+        "title2": "Backend Radar System",
+        "desc2": "Membangun dan memelihara layanan backend untuk integrasi sistem radar.",
+        "title3": "Integrasi Asisten AI",
+        "desc3": "Mengembangkan fitur fullstack yang mengintegrasikan kemampuan asisten AI."
+      },
+      "bengkel": {
+        "title1": "Ketua Bengkel Koding",
+        "desc1": "Memimpin dan mengoordinasikan aktivitas pengembangan dalam komunitas, membimbing anggota tim dalam membangun aplikasi web, dan memastikan kolaborasi dalam menghasilkan proyek berbasis pembelajaran.",
+        "title2": "Pengembangan Backend LMS",
+        "desc2": "Mengembangkan dan memelihara sistem backend untuk platform manajemen pembelajaran.",
+        "title3": "Desain API & Database",
+        "desc3": "Merancang API dan struktur database untuk arsitektur sistem yang dapat diskalakan.",
+        "title4": "Frontend & Backend History Indoor Duration",
+        "desc4": "Membangun sistem fullstack untuk melacak riwayat aktivitas dalam ruangan dan durasinya, mencakup UI frontend dan layanan backend."
+      }
+    },
+    "education": {
+      "dianNuswantoro": {
+        "title": "Sarjana Teknik",
+        "desc": "Teknik Informatika - Universitas Dian Nuswantoro"
+      },
+      "gadjahMada": {
+        "title": "Pertukaran Mahasiswa - Ilmu Komputer",
+        "desc": "Universitas Gadjah Mada"
+      },
+      "tunasHarapan": {
+        "title": "Rekayasa Perangkat Lunak (RPL)",
+        "desc": "SMK Telekomunikasi Tunas Harapan"
+      }
+    },
+    "achievements": {
+      "scholarship": {
+        "title": "Penghargaan Beasiswa Akademik 96%",
+        "desc": "Universitas Dian Nuswantoro - diberikan atas prestasi akademik dari SMK Telekomunikasi Tunas Harapan."
+      },
+      "rank2": {
+        "title": "Lulusan Peringkat Ke-2",
+        "desc": "SMK Telekomunikasi Tunas Harapan - peringkat 2 dari angkatan 2019."
+      },
+      "lks": {
+        "title": "Juara 1 - IT Software Solutions for Business",
+        "desc": "Lomba Kompetensi Siswa (LKS) Tingkat Kabupaten"
+      }
+    }
+  },
+  "skills": {
+    "badge": "Keahlian",
+    "heading": {
+      "part1": "Keahlian ",
+      "part2": "Saya"
+    },
+    "categories": {
+      "programming": "Bahasa Pemrograman",
+      "backend": "Pengembangan Backend",
+      "frontend": "Pengembangan Frontend",
+      "databases": "Basis Data",
+      "tools": "Alat & Lainnya"
+    }
+  },
+  "portfolio": {
+    "badge": "Portofolio",
+    "heading": {
+      "part1": "Portofolio ",
+      "part2": "Unggulan"
+    },
+    "filters": {
+      "all": "Semua",
+      "backend": "Backend Developer",
+      "fullstack": "Fullstack Developer"
+    },
+    "showMore": "Tampilkan Lebih Banyak",
+    "showLess": "Tampilkan Lebih Sedikit"
+  },
+  "featured": {
+    "heading": {
+      "part1": "Jejak ",
+      "part2": "Digital"
+    }
+  },
+  "service": {
+    "badge": "Layanan",
+    "heading": {
+      "part1": "Spesialisasi ",
+      "part2": "Saya"
+    },
+    "items": {
+      "web": {
+        "title": "Pengembangan Web",
+        "desc": "Membangun aplikasi web modern, responsif, dan dapat diskalakan."
+      },
+      "backend": {
+        "title": "Pengembangan Backend",
+        "desc": "Merancang API yang kuat, autentikasi, dan logika bisnis."
+      },
+      "system": {
+        "title": "Arsitektur Sistem",
+        "desc": "Menyusun sistem yang rapi, dapat diskalakan, dan mudah dipelihara."
+      },
+      "database": {
+        "title": "Desain Database",
+        "desc": "Merancang skema yang efisien, ERD, dan kueri yang dioptimalkan."
+      },
+      "api": {
+        "title": "Integrasi API",
+        "desc": "Mengintegrasikan layanan pihak ketiga, pembayaran, dan sistem IoT."
+      },
+      "fullstack": {
+        "title": "Pengembangan Fullstack",
+        "desc": "Menangani pengembangan dari ujung ke ujung, mulai dari frontend hingga backend."
+      }
+    }
+  },
+  "contact": {
+    "badge": "Kontak",
+    "heading": {
+      "part1": "Mari ",
+      "part2": "Bekerja Sama!"
+    },
+    "form": {
+      "nameLabel": "Nama Lengkap",
+      "namePlaceholder": "Nama lengkap Anda",
+      "emailLabel": "Email",
+      "emailPlaceholder": "Alamat email Anda",
+      "phoneLabel": "Telepon",
+      "phonePlaceholder": "Nomor telepon Anda",
+      "budgetLabel": "Anggaran",
+      "budgetPlaceholder": "Rentang anggaran untuk proyek Anda",
+      "messageLabel": "Pesan",
+      "messagePlaceholder": "Tulis pesan Anda...",
+      "btnSending": "Mengirim...",
+      "btnSend": "Kirim Pesan"
+    },
+    "toast": {
+      "success": "Pesan berhasil dikirim 🚀",
+      "fail": "Gagal mengirim pesan ❌",
+      "error": "Terjadi kesalahan saat mengirim pesan ❌"
+    }
+  },
+  "sidebar": {
+    "subtitle": "Software Engineer Berfokus pada Backend",
+    "openToWork": "Terbuka untuk Bekerja",
+    "location": "Berdomisili di Ungaran, Jawa Tengah",
+    "btnWork": "Bekerja Bersama Saya",
+    "footer": "Hak Cipta Dilindungi"
+  }
+}

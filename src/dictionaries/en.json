@@ -1,0 +1,185 @@
+{
+  "hero": {
+    "badge": "Introduce",
+    "heading": {
+      "part1": "Hi, I'm a ",
+      "part2": "Software Engineer",
+      "part3": " focused on",
+      "part4": " backend systems"
+    },
+    "subHeading": "I build systems and web applications that are simple, efficient, and reliable. Turning ideas into real solutions is what I enjoy most.",
+    "extra": "Focused on creating products that not only work, but also scale and make an impact.",
+    "cta": "View My Projects",
+    "downloadCV": "Download CV"
+  },
+  "about": {
+    "badge": "About",
+    "heading": {
+      "part1": "Every great product begins with a clear purpose and ",
+      "part2": "thoughtful execution."
+    },
+    "content1": "I've been building web applications and backend systems with a focus on reliability, efficiency, and scalability. From developing fullstack platforms to designing APIs and integrating modern technologies, I enjoy turning complex problems into simple and usable solutions.",
+    "content2": "I'm naturally curious, detail-oriented, and always improving how I design systems and write clean, maintainable code.",
+    "stats": {
+      "experience": "Years of Experience",
+      "projects": "Projects Completed"
+    },
+    "downloadCV": "Download CV"
+  },
+  "resume": {
+    "badge": "Resume",
+    "titles": {
+      "experience": "Experience",
+      "education": "Education",
+      "achievement": "Achievement"
+    },
+    "experiences": {
+      "farmagitechs": {
+        "title1": "Fullstack Web Development SIMRS",
+        "desc1": "Developed and maintained SIMRS web application.",
+        "title2": "Backend Radar System",
+        "desc2": "Built and maintained backend services for radar system integration.",
+        "title3": "AI Assistant Integration",
+        "desc3": "Developed fullstack features integrating AI assistant capabilities."
+      },
+      "bengkel": {
+        "title1": "Bengkel Koding Leader",
+        "desc1": "Led and coordinated development activities within the community, guided team members in building web applications, and ensured collaboration in delivering learning based projects.",
+        "title2": "LMS Backend Development",
+        "desc2": "Developed and maintained backend system for learning management platform.",
+        "title3": "API & Database Design",
+        "desc3": "Designed APIs and structured database for scalable system architecture.",
+        "title4": "Frontend & Backend History Indoor Duration",
+        "desc4": "Built a fullstack system for tracking indoor activity history and duration, covering both frontend UI and backend services."
+      }
+    },
+    "education": {
+      "dianNuswantoro": {
+        "title": "Bachelor of Engineering",
+        "desc": "Informatics Engineering - Dian Nuswantoro University"
+      },
+      "gadjahMada": {
+        "title": "Student Exchange - Computer Science",
+        "desc": "Gadjah Mada University"
+      },
+      "tunasHarapan": {
+        "title": "Software Engineering (Rekayasa Perangkat Lunak)",
+        "desc": "SMK Telekomunikasi Tunas Harapan"
+      }
+    },
+    "achievements": {
+      "scholarship": {
+        "title": "96% Academic Scholarship Award",
+        "desc": "Dian Nuswantoro University - awarded for academic performance from SMK Telekomunikasi Tunas Harapan."
+      },
+      "rank2": {
+        "title": "2nd Rank Graduate",
+        "desc": "SMK Telekomunikasi Tunas Harapan - ranked 2nd among the 2019 cohort."
+      },
+      "lks": {
+        "title": "1st Place - IT Software Solutions for Business",
+        "desc": "Lomba Kompetensi Siswa (LKS) Regency Level"
+      }
+    }
+  },
+  "skills": {
+    "badge": "Skills",
+    "heading": {
+      "part1": "My ",
+      "part2": "Expertise"
+    },
+    "categories": {
+      "programming": "Programming Languages",
+      "backend": "Backend Development",
+      "frontend": "Frontend Development",
+      "databases": "Databases",
+      "tools": "Tools & Others"
+    }
+  },
+  "portfolio": {
+    "badge": "Portfolio",
+    "heading": {
+      "part1": "Featured ",
+      "part2": "Portfolio"
+    },
+    "filters": {
+      "all": "All",
+      "backend": "Backend Developer",
+      "fullstack": "Fullstack Developer"
+    },
+    "showMore": "Show More",
+    "showLess": "Show Less"
+  },
+  "featured": {
+    "heading": {
+      "part1": "Beyond This ",
+      "part2": "Site"
+    }
+  },
+  "service": {
+    "badge": "Service",
+    "heading": {
+      "part1": "My ",
+      "part2": "Specializations"
+    },
+    "items": {
+      "web": {
+        "title": "Web Development",
+        "desc": "Building modern, responsive, and scalable web applications."
+      },
+      "backend": {
+        "title": "Backend Development",
+        "desc": "Designing robust APIs, authentication, and business logic."
+      },
+      "system": {
+        "title": "System Architecture",
+        "desc": "Structuring clean, scalable, and maintainable systems."
+      },
+      "database": {
+        "title": "Database Design",
+        "desc": "Designing efficient schemas, ERD, and optimized queries."
+      },
+      "api": {
+        "title": "API Integration",
+        "desc": "Integrating third-party services, payments, and IoT systems."
+      },
+      "fullstack": {
+        "title": "Fullstack Development",
+        "desc": "Handling end-to-end development from frontend to backend."
+      }
+    }
+  },
+  "contact": {
+    "badge": "Contact",
+    "heading": {
+      "part1": "Let's Work ",
+      "part2": "Together!"
+    },
+    "form": {
+      "nameLabel": "Full Name",
+      "namePlaceholder": "Your full name",
+      "emailLabel": "Email",
+      "emailPlaceholder": "Your email address",
+      "phoneLabel": "Phone",
+      "phonePlaceholder": "Your phone number",
+      "budgetLabel": "Budget",
+      "budgetPlaceholder": "A range budget for your project",
+      "messageLabel": "Message",
+      "messagePlaceholder": "Write your message...",
+      "btnSending": "Sending...",
+      "btnSend": "Send Message"
+    },
+    "toast": {
+      "success": "Message sent successfully 🚀",
+      "fail": "Failed to send message ❌",
+      "error": "Error sending message ❌"
+    }
+  },
+  "sidebar": {
+    "subtitle": "Software Engineer Backend Focus",
+    "openToWork": "Open to Work",
+    "location": "Based in Ungaran, Jawa Tengah",
+    "btnWork": "Work With Me",
+    "footer": "All Rights Reserved"
+  }
+}
